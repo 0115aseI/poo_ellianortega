@@ -20,21 +20,20 @@ public class CLI {
         double peso = scanner.nextDouble();
 
         double Imc = CaculadoraMasaCorporal.calcularIndiceMasaCorporal(estatura, peso);
-        System.out.println("Imc" +imc);
+        System.out.println("Imc" + Imc);
     }
     public static void  launchCalculator(){
-        /** aqui pedimos que se lea la entrada del teclado del usuario**/
+        /* aqui pedimos que se lea la entrada del teclado del usuario*/
         Scanner scanner = new Scanner(System.in);
         showMenu();
-        /** aqui pedimos leer la opcion que le dimos al usuario, el metodo next int lee el teclado y **/
+        /* aqui pedimos leer la opcion que le dimos al usuario, el metodo next int lee el teclado y **/
         int opcion = scanner.nextInt();
         switch (opcion){
             case 1:
                 double imc = CaculadoraMasaCorporal.calcularIndiceMasaCorporal(estatura, peso);
-                String estado = clasificarIndiceMasaCorporal(imc);
+                String estado = clasificarIndiceMasaCorporal(Imc);
                 System.out.printf("tu indice de masa corporal %f por lo que se considera estas en un estado de%s" , imc, estado);
 
-                )
                 break;
             case 2:
                 break;
@@ -44,7 +43,9 @@ public class CLI {
                 break;
 
         }
-        System.out.println("aplicacion terminada");
+        System.out.println("aplicacion terminada");{
+
+        }
 
     }
 }

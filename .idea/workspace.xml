@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084fb540-f5ba-47b2-9378-cc74ddde816a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POOEllianOrtega.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto1/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto1/process/calculadoraimc/CaculadoraMasaCorporal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto1/ui/CLI.java" afterDir="false" />
+    <list default="true" id="084fb540-f5ba-47b2-9378-cc74ddde816a" name="Changes" comment="avance reto 1">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto2/process/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto2/ui/CLI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto2/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/ellian/ortega/reto1/process/calculadoraimc/CaculadoraMasaCorporal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto1/process/calculadoraimc/CaculadoraMasaCorporal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/ellian/ortega/reto1/ui/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto1/ui/CLI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +26,39 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;0115aseI&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="0115aseI" />
+        <option name="repository" value="poo_ellianortega" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3bb2bfd6-96fb-4968-be99-569b1d41f55b" />
+        <option name="url" value="https://github.com/0115aseI/poo_ellianortega.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2b8F8gKXrVIDr4SbZFc1mSeE6zm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,16 +69,72 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CLI.executor": "Debug",
     "Application.Main.executor": "Run",
+    "Application.VentaCajas.executor": "Run",
+    "Application.edu.ellian.ortega.reto2.ui.Main.executor": "Run",
     "Application.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "reto2",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/zusu_/IdeaProjects/POOEllianOrtega/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CLI">
+    <configuration name="CLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ellian.ortega.reto2.ui.CLI" />
+      <module name="POOEllianOrtega" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ellian.ortega.reto2.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ellian.ortega.reto2.Main" />
+      <module name="POOEllianOrtega" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ellian.ortega.reto2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VentaCajas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ellian.ortega.reto2.process.VentaCajas" />
+      <module name="POOEllianOrtega" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ellian.ortega.reto2.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.ellian.ortega.reto2.ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ellian.ortega.reto2.ui.Main" />
+      <module name="POOEllianOrtega" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ellian.ortega.reto2.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.ellian.ortega.reto1.main" />
       <module name="POOEllianOrtega" />
@@ -68,6 +150,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CLI" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.edu.ellian.ortega.reto2.ui.Main" />
+        <item itemvalue="Application.VentaCajas" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
@@ -89,6 +175,28 @@
       <option name="presentableId" value="Default" />
       <updated>1705588641493</updated>
     </task>
+    <task id="LOCAL-00001" summary="proyecto1">
+      <option name="closed" value="true" />
+      <created>1706290422453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706290422453</updated>
+    </task>
+    <task id="LOCAL-00002" summary="avance reto 1">
+      <option name="closed" value="true" />
+      <created>1706291070887</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706291070887</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="proyecto1" />
+    <MESSAGE value="avance reto 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="avance reto 1" />
   </component>
 </project>

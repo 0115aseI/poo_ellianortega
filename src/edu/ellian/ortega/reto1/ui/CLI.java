@@ -30,8 +30,10 @@ public class CLI {
         int opcion = scanner.nextInt();
         switch (opcion){
             case 1:
-                double imc = CaculadoraMasaCorporal.calcularIndiceMasaCorporal(estatura, peso);
-                String estado = clasificarIndiceMasaCorporal(Imc);
+
+
+                double imc = CaculadoraMasaCorporal.calcularIndiceMasaCorporal(2, 1);
+                String estado = CaculadoraMasaCorporal.clasificarIndiceMasaCorporal(imc);
                 System.out.printf("tu indice de masa corporal %f por lo que se considera estas en un estado de%s" , imc, estado);
 
                 break;

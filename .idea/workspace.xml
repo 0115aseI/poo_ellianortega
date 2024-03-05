@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084fb540-f5ba-47b2-9378-cc74ddde816a" name="Changes" comment="avance reto 1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto2/process/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto2/ui/CLI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto2/ui/Main.java" afterDir="false" />
+    <list default="true" id="084fb540-f5ba-47b2-9378-cc74ddde816a" name="Changes" comment="en este reto 3 hice un codigo que contiene un menu con opciones para ver 10 palabras o elegir su significado, al igual que arreglos para contener esas palabras">
+      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto4/data/Boleto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto4/data/Pasajero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto4/data/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto4/process/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto4/ui/CLI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto4/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/ellian/ortega/reto1/process/calculadoraimc/CaculadoraMasaCorporal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto1/process/calculadoraimc/CaculadoraMasaCorporal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/ellian/ortega/reto1/ui/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto1/ui/CLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/ellian/ortega/reto2/process/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/ellian/ortega/reto2/ui/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ellian/ortega/reto2/ui/CLI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +31,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="EllianGamezz &lt;156824315+0115asei@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="reto3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,20 +85,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.CLI.executor": "Debug",
+    "Application.CLI.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.VentaCajas.executor": "Run",
     "Application.edu.ellian.ortega.reto2.ui.Main.executor": "Run",
+    "Application.edu.ellian.ortega.reto3.ui.Main.executor": "Run",
+    "Application.edu.ellian.ortega.reto4.ui.Main.executor": "Run",
     "Application.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "reto2",
+    "git-widget-placeholder": "reto4",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/zusu_/IdeaProjects/POOEllianOrtega/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CLI">
+  <component name="RunManager" selected="Application.edu.ellian.ortega.reto4.ui.Main">
     <configuration name="CLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.ellian.ortega.reto2.ui.CLI" />
       <module name="POOEllianOrtega" />
@@ -109,19 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VentaCajas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.ellian.ortega.reto2.process.VentaCajas" />
-      <module name="POOEllianOrtega" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.ellian.ortega.reto2.process.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="edu.ellian.ortega.reto2.ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.ellian.ortega.reto2.ui.Main" />
       <module name="POOEllianOrtega" />
@@ -135,12 +140,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.ellian.ortega.reto1.main" />
+    <configuration name="edu.ellian.ortega.reto3.ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ellian.ortega.reto3.ui.Main" />
       <module name="POOEllianOrtega" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.ellian.ortega.reto1.*" />
+          <option name="PATTERN" value="edu.ellian.ortega.reto3.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.ellian.ortega.reto4.ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ellian.ortega.reto4.ui.Main" />
+      <module name="POOEllianOrtega" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ellian.ortega.reto4.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.edu.ellian.ortega.reto4.ui.Main" />
+        <item itemvalue="Application.edu.ellian.ortega.reto3.ui.Main" />
         <item itemvalue="Application.CLI" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.edu.ellian.ortega.reto2.ui.Main" />
-        <item itemvalue="Application.VentaCajas" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -191,12 +209,47 @@
       <option name="project" value="LOCAL" />
       <updated>1706291070887</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="en este reto 2 hicimos un codigo de una empresa que se dedica a comprar y vender cajas, creamos un usuario con generate, y lo mandamos a llamar en main, el usuario es jose y la contraseña es 1234 si se meten los datos incorrectamente se hara un bucle hasta que sea correcto, en cuanto sea correcto mostrara un menu con las opciones y dependiendo que eligas seran los datos y operaciones requeridos">
+      <option name="closed" value="true" />
+      <created>1706936730303</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706936730303</updated>
+    </task>
+    <task id="LOCAL-00004" summary="en este reto 3 hice un codigo que contiene un menu con opciones para ver 10 palabras o elegir su significado, al igual que arreglos para contener esas palabras">
+      <option name="closed" value="true" />
+      <created>1707615544153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707615544153</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="proyecto1" />
     <MESSAGE value="avance reto 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="avance reto 1" />
+    <MESSAGE value="Merge pull request #1 from 0115aseI/reto1&#10;&#10;reto1" />
+    <MESSAGE value="en este reto 2 hicimos un codigo de una empresa que se dedica a comprar y vender cajas, creamos un usuario con generate, y lo mandamos a llamar en main, el usuario es jose y la contraseña es 1234 si se meten los datos incorrectamente se hara un bucle hasta que sea correcto, en cuanto sea correcto mostrara un menu con las opciones y dependiendo que eligas seran los datos y operaciones requeridos" />
+    <MESSAGE value="en este reto 3 hice un codigo que contiene un menu con opciones para ver 10 palabras o elegir su significado, al igual que arreglos para contener esas palabras" />
+    <option name="LAST_COMMIT_MESSAGE" value="en este reto 3 hice un codigo que contiene un menu con opciones para ver 10 palabras o elegir su significado, al igual que arreglos para contener esas palabras" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/ellian/ortega/reto3/ui/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/ellian/ortega/reto4/ui/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
